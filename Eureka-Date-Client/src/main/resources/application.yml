@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Eureka-Date-Client
+server:
+  port: 8082
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+    
+  instance:
+    preferIpAddress: true
+   
+info:
+    app:
+      name: Eureka-Date-Client
+      description: This is my Spring Boot Date Microservice.
+      version: 1.0
+   
