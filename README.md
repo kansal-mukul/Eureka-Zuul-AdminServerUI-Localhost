@@ -3,7 +3,10 @@ Service registration and discovery through Zuul and Eureka along with Spring Boo
 
 URLs:
 
-Eureka server : http://localhost:8761/ Eureka Date Client Micro Service : http://192.168.11.1:8082/date Eureka Hello Client Micro Service : http://192.168.11.1:8081/hello Eureka Zuul Gateway Client Service : http://192.168.11.1:8080/routes
+Eureka server : http://localhost:8761/ 
+Eureka Date Client Micro Service : http://192.168.11.1:8082/date 
+Eureka Hello Client Micro Service : http://192.168.11.1:8081/hello 
+Eureka Zuul Gateway Client Service : http://192.168.11.1:8080/routes
 
 Client Service Zuul Gateway API URL : http://192.168.11.1:8080/api/hello-client/hello http://192.168.11.1:8080/api/eureka-hello-client/hello
 
